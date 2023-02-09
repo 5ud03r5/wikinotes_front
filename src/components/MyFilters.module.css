@@ -1,0 +1,67 @@
+.main {
+    
+    margin-bottom: 10px;
+}
+.collapse {
+    background: linear-gradient(to right, rgb(242, 242, 242), rgb(225, 225, 225), rgb(245, 245, 245));
+    text-decoration: none;
+    color: white;
+    outline: none;
+    
+}
+    .collapse:hover {
+        text-decoration: none;
+        color: white;
+
+    }
+
+.card {
+    background: linear-gradient(to right, rgb(242, 242, 242), rgb(225, 225, 225), rgb(245, 245, 245));
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    
+    
+}
+
+.tag {
+    
+    
+    background-color: rgb(9, 5, 17);
+    color:rgb(199, 255, 255);
+    display: inline-block;
+    
+    
+    
+}
+.tagdiv {
+    
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(9, 5, 17);
+    box-shadow: 0 5px 10px 0 rgba(139, 139, 139, 0.3), 0 5px 15px 0 rgba(109, 109, 109, 0.3);
+    
+    display: inline-block;
+    border-radius: 7px;
+    
+}
+    .tagdiv:hover {
+        cursor:pointer
+    }
+
+.tagremove {
+    text-decoration: none;
+    color: rgb(199, 255, 255);
+}
+    .tagremove:hover {
+        color:rgb(199, 255, 255);
+    }
+
+
+.button {
+    
+    margin-bottom: 10px; 
+    
+   
+}
+    .button:hover {
+        box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    }

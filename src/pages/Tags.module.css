@@ -1,0 +1,14 @@
+.div {
+    display: inline-block;
+    margin: 1px;
+    z-index: 400;
+}
+
+.flex {
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex
+    
+}

@@ -1,0 +1,14 @@
+.div {
+    margin-top: 90px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(139, 139, 139, 0.3), 0 5px 15px 0 rgba(109, 109, 109, 0.3);
+}
+
+.label {
+    text-align: center;
+    font: bold;
+    font-family:fantasy;
+    font-size: xx-large;
+}

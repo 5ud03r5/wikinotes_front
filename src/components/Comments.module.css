@@ -1,0 +1,110 @@
+.input {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: none
+    
+    
+}
+
+
+.div {
+    
+    padding: 20px;
+    background-color:rgb(236, 225, 255);
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(139, 139, 139, 0.3), 0 5px 15px 0 rgba(109, 109, 109, 0.3);
+}
+
+
+
+
+.myComment {
+        
+        text-align: left;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(to left, rgb(236, 225, 255), rgb(236, 225, 255),  rgb(241, 255, 255));
+        border-radius: 10px;
+        word-wrap: break-word;
+        border: none;
+        
+        
+        
+        
+}
+    .myComment:hover {
+            background: rgb(241, 255, 255);
+            border-radius: 10px;
+            border: none;
+        }
+    .myComment:focus {
+        outline: none;
+    }
+
+.contentEdit {
+
+}
+    .contentEdit:focus {
+        outline: none;
+    }
+.comment {
+        
+        text-align: right;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: linear-gradient(to left, rgb(210, 185, 255), rgb(236, 225, 255), rgb(236, 225, 255));
+        border-radius: 10px;
+        word-wrap: break-word;
+        
+        
+        
+        
+        
+}
+
+        .comment:hover {
+            background: rgb(210, 185, 255);
+            border-radius: 10px;
+        }
+.thumb {
+    float:right;
+    margin-left: 20px
+}
+    .thumb:hover {
+        cursor: pointer;
+    }
+
+.voteCounter {
+    background-color: rgb(194, 255, 255);
+    border-radius: 50px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    border: solid rgb(142, 255, 255);
+    font-weight: bold;
+}
+
+.collapse {
+    background: none;
+    margin-top: 10px;
+    
+}
+
+.dropdown {
+    
+    
+    z-index: 999;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: blueviolet;
+    color: white;
+    height: fit-content;
+    float: right;
+    position: relative;   
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+

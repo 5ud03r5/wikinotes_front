@@ -1,0 +1,53 @@
+.div {
+    margin-top: 100px;
+   
+}
+.editor {
+    background-color: rgb(218, 218, 218);
+    
+    z-index: 100;
+    color: black;
+    border-width: 10px;
+    border-color: black;
+    
+    
+    
+    overflow-y: scroll;
+    min-height: 800px;
+    max-height: 800px;
+   
+   
+    
+}
+    .editor:focus {
+        outline: none;
+        box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    }
+
+.divInsider {
+    margin-left: 100px
+}
+.input {
+    width: 300px
+    
+}
+
+.flex {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.float {
+    float: right;
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+}
+img {
+    max-width: 100%;
+}
+
+.ck-editor__editable_inline {
+    min-height: 500px !important;
+}

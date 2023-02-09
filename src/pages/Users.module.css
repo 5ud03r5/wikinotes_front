@@ -1,0 +1,36 @@
+.div {
+    margin-top: 20px;
+    background-color: white;
+    border: thin gainsboro;
+    box-shadow: 0 5px 10px 0 rgba(139, 139, 139, 0.3), 0 5px 15px 0 rgba(109, 109, 109, 0.3);
+    
+}
+.divInsider {
+    margin-left: 100px;
+}
+
+.maindiv {
+    margin-top: 100px;
+   
+    
+    
+}
+
+
+.button {
+    margin: 3px
+}
+
+
+.table {
+    
+}
+
+.td {
+    white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   max-width: 200px;
+   width: 200;
+   
+}

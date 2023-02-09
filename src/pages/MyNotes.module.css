@@ -1,0 +1,341 @@
+.div {
+    margin-top: 100px;
+    margin-left: 100px;
+   
+}
+
+
+.note {
+    background-color: rgb(252, 252, 252);
+    z-index: 100;
+    color: black;
+    padding: 15px;
+    
+    width: 84%;
+    
+    overflow-y: scroll;
+    min-height: 800px;
+    max-height: 800px;
+   
+   
+    
+}
+    .note:focus {
+        outline: none;
+    }
+
+.section {
+    color: white;
+    width: 16%;
+    max-height: 100%;
+    
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+    
+    
+}
+
+.sectionItem {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(135deg, #3B2667 10%, #603083 100%);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;  
+}
+    .sectionItem:hover {
+        cursor: pointer;
+        color: cyan;
+    }
+    .sectionItem:focus {
+        outline: none;
+    }
+
+.sectionItemActive {
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+    border-left: solid cyan;
+    background-image: linear-gradient(135deg, #1d1233 10%, #593871 100%);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;  
+}
+    .sectionItemActive:hover {
+        cursor: pointer;
+        color: cyan;
+    }
+    .sectionItemActive:focus {
+        outline: none;
+    }
+
+.addNewSection {
+    
+    
+    color: rgb(161, 255, 255);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+    .addNewSection:hover {
+        cursor: pointer;
+        color: cyan;
+        
+    }
+
+.divNotes {
+    background-image: linear-gradient(135deg, #3B2667 10%, #603083 100%);
+    width: 100%;
+    height: 807px;
+    padding: 3px;
+    display: flex;
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    
+}
+    
+
+.noteHeader {
+    position:  relative;
+    background-color: rgb(181, 255, 255);
+    color: white;
+    background-image: linear-gradient(135deg, #3B2667 10%, #603083 100%);
+    font-weight: bold;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    
+   
+    padding: 10px;
+    margin:0px;
+    max-height: 50px;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100px; /* some width */
+    box-shadow: 0 0px 0px 0 rgb(37, 0, 59), 0 0px 25px 0 rgb(37, 0, 59);
+
+}
+
+    .noteHeader:hover {
+        cursor: pointer;
+        background-color: rgb(29, 200, 200);
+        color: rgb(32, 15, 63);
+        box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+
+    }
+    .noteHeader:focus {
+        outline: none;
+    }
+
+.noteHeaderActive {
+    z-index: 200;
+    position:  relative;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    background-color:rgb(37, 0, 59);
+    color: cyan;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px;
+    max-height: 50px;
+    text-align: center;
+    min-width: 100px;
+    width: fit-content;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+}
+
+    .noteHeaderActive:hover {
+        cursor: pointer
+
+    }
+    .noteHeaderActive:focus {
+        outline: none;
+    }
+
+.addNew {
+    background-image: linear-gradient(135deg, #3B2667 10%, #603083 100%);
+    color: rgb(136, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-left: 11%;
+    
+    border-top-right-radius: 10px;
+    
+    
+    
+    
+    width: fit-content;
+    
+    
+    
+    font-weight: bold;
+    float: right;
+    
+    
+    
+}
+    .addNew:hover {
+        cursor: pointer;
+        color: cyan;
+        box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    }
+
+.addNewH2 {
+    background-color:cyan;
+    color: rgb(9, 5, 17);
+    padding: 8px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius:10px;
+    width: fit-content;
+    
+    
+    
+    
+    
+    
+    
+}
+    .addNewH2:hover {
+        cursor: pointer;
+        box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    }
+
+
+.divHeaders {
+    max-width: 80%;
+    display: flex;
+}
+
+.count {
+    background-color: rgb(141, 255, 255);
+    color: black;
+    font-weight: bold;
+    border: solid cyan;
+}
+
+.h2 {
+    color: rgb(214, 255, 255);
+    margin-left: 40%;
+    
+    margin-top: 350px;
+    text-align: center;
+  }
+  
+.cke-top .cke-bottom {
+    display: none;
+}
+
+.dropdown {
+    
+    
+    z-index: 900;
+    position: absolute;
+    height: 300px;
+    float: left;
+    
+    
+    
+}
+
+
+
+
+
+.dropdownItem {
+    color: cyan;
+    background-color: black;
+    padding: 3px;
+    margin-top: 10px;
+    z-index: 900;
+    position: absolute;
+    text-align: center;
+    
+    
+    
+}
+
+
+    .dropdownItem:hover {
+        background-color: cyan;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+.dropdownItem2 {
+    color: cyan;
+    background-color: black;
+    padding: 3px;
+    
+    width: 120px;
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+    
+    
+    
+    
+}
+
+
+    .dropdownItem2:hover {
+        background-color: cyan;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+.searchNotes {
+    
+    margin-bottom: 0;
+    width: 400px;
+    
+    
+}
+    .searchNotes:focus {
+        outline: none;
+        box-shadow: 0 0px 10px 0 rgb(181, 181, 181), 0 0px 10px 0 rgb(167, 167, 167);
+    }
+
+.searchDiv {
+    margin-bottom: 30px;
+}
+
+.ul {
+    margin-top: 2px;
+    z-index: 999;
+    position: absolute;
+    background-color: white;
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 5px;
+    width: 400px;
+    border-bottom: solid rgb(118, 0, 134);
+    border-left: solid rgb(118, 0, 134);
+    border-right: solid rgb(118, 0, 134);
+    box-shadow: 0 5px 10px 0 rgba(64, 64, 64, 0.3), 0 5px 15px 0 rgba(41, 41, 41, 0.3);
+
+}   
+
+.li {
+    list-style-type: none;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+    
+
+}
+
+    .li:hover {
+        background-color: aliceblue;
+        cursor: pointer
+    }

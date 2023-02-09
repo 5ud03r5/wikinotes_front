@@ -1,0 +1,96 @@
+.button-prop {
+    
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 0px;
+    width: 260px;
+    height: 39px;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    text-align: left;
+    color:rgb(255, 255, 255);
+    
+}
+    .button-prop:hover {
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(141, 255, 255);
+    }
+
+.button-prop-active {
+    
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 240px;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    color: cyan
+    
+}
+    .button-prop-active:hover {
+        text-decoration: none;
+        color: rgb(141, 255, 255);
+    }
+
+.btn {
+    text-decoration: none;
+}
+
+.btn-info {
+    text-decoration: none;
+}
+
+.hr {
+    margin: 10px;
+    width: 90%;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+hr {
+    background-image: linear-gradient(135deg, #3B2667 10%, #BC78EC 100%);
+}
+
+
+.userview {
+    margin-left: 25px;
+    height: 320px;
+    margin-bottom: 20px;
+    
+}
+.preferences {
+    margin-left: 25px;
+    
+    
+}
+
+
+.adminview {
+    
+    margin-left: 25px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+
+
+.userdiv {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    
+    width: 80%;
+    border-bottom: solid#BC78EC;
+    border-left:solid #d5c2e2;
+    
+}

@@ -1,0 +1,92 @@
+.card {
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 250px;
+    max-width: 250px;
+    
+    margin-right: 10px;
+    background-color: rgb(236, 236, 236);;
+    box-shadow: 0 5px 10px 0 rgba(139, 139, 139, 0.3), 0 5px 15px 0 rgba(109, 109, 109, 0.3);
+    
+}
+
+.threedots {
+    
+    float: right;
+    display: block;
+    background-color:rgb(248, 248, 248);
+    color: black;
+    border: 10px;
+    border-radius: 10px;
+   
+
+}
+    .threedots:hover {
+        background-color:rgb(248, 248, 248);
+        outline: none;
+    }
+
+.uncontrolled {
+    margin-top: 10px;
+    float: right;
+    display: block;
+}
+    .uncontrolled:hover {
+        background-color:rgb(248, 248, 248);
+    }
+
+.button {
+    background-color: rgb(9, 5, 17);
+    color:rgb(241, 255, 255);
+    max-width: 60%;
+    word-wrap: break-word;
+    
+}
+    .button:hover {
+        background-color: rgb(9, 5, 17);
+        color: rgb(141, 255, 255);
+    }
+.remove {
+    
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+    background-color: blueviolet;
+    color: white;
+    height: fit-content;
+    float: right;
+    
+     
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.body {
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.description {
+    overflow: hidden;
+    width:90%;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.title {
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-right: -150px;
+    width: fit-content;
+    padding: 10px;
+    position: relative;
+    border: solid rgb(0, 0, 0);;
+    color: rgb(201, 255, 255);
+    z-index: 999;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+    background-color: rgb(29, 0, 36);
+}

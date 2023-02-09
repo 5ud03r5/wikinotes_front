@@ -1,0 +1,95 @@
+.div-input {
+    position: relative;
+    padding: 6px;
+    margin-right: 0px;
+    width: 300px;
+    min-height: 32px;
+    height: 100%;
+    background-color: white;
+    border:1px solid rgb(207, 212, 218);
+    border-radius: 5px;
+    
+    
+}
+    .div-input:hover {
+        cursor: text;
+    }
+
+
+
+.div-tags {
+    
+    padding: 0px;
+    
+    
+}
+
+
+.tag {
+    color: aquamarine;
+    
+    background-color: rgb(24, 35, 49);
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.div {
+    
+    margin-right: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    
+}
+
+.input {
+    display: inline;
+    border: none;
+    outline: none;
+    
+    height: 100%;
+   
+    
+}
+.close {
+    color: aquamarine;
+    
+    margin-left: 3px;
+    margin-bottom: 3px;
+    background-color: black;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px
+
+
+}
+    .close:hover{
+        color: aliceblue
+    }
+
+.ul {
+    z-index: 500;
+    position: absolute;
+    background-color:  rgb(209, 209, 209);
+    width: 300px;
+    
+    left: 5;
+}
+
+.active {
+    background-color: aliceblue;
+}
+
+
+.linkitem {
+    color: aquamarine;
+    text-decoration: none;
+    background-color: rgb(24, 35, 49);
+    padding: 3px;
+    border-radius: 5px;
+}
+    .linkitem:hover{
+        text-decoration: none;
+        color: aquamarine;
+    }
