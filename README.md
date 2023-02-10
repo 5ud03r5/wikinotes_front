@@ -3,6 +3,12 @@
 You are currently at frontend of wikinotes application. 
 If you wanna display backed part of this app please navigate to my wikinotes_back repository
 
+## Problem
+
+A lot of knowledge obtained during troubleshooting process is forgotten and usually not shared across the team because of multiple reasons like not enough time to do structure this knowledge accordingly to be readable bo others, not being sure if that information can be useful etc.. It also becames a problem when shared knowledge became out of data or if similar data already exists in the database.
+
+I created a tool which helps store that raw note and convert it to actual article with help of comparision mechanism and expiry verification.
+
 ## Project purpose
 ![main_pic](https://user-images.githubusercontent.com/94323029/217826562-ff6ba809-bf46-47b9-bc49-324008e17abf.png)
 
